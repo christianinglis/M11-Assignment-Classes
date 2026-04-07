@@ -60,3 +60,4 @@ function updateMovieRating(title, newRating) {
 }
 
 // Display the updated information of the movie
+updateMovieRating("The Shawshank Redemption", 9.5);
