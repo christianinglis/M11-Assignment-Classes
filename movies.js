@@ -49,5 +49,14 @@ const movies = [];
 movies.push(firstMovie);
 
 // Update the rating of the movie
+function updateMovieRating(title, newRating) {
+  for (let movie of movies) {
+    if (movie.getTitle() === title) {
+      movie.updateRating(newRating);
+      movie.displayInfo();
+      break;
+    }
+  }
+}
 
 // Display the updated information of the movie
