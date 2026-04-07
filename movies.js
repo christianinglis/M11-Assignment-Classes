@@ -43,6 +43,10 @@ const firstMovie = new Movie(
 );
 
 // Display the initial information of the movie
+firstMovie.displayInfo();
+
+const movies = [];
+movies.push(firstMovie);
 
 // Update the rating of the movie
 
