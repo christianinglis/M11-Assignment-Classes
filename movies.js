@@ -20,7 +20,7 @@ class Movie {
 
 // Method to display the movie's information
   displayInfo() {
-    const movieInfoDiv = document.getElementById("movie-info");xsaxaswddqw
+    const movieInfoDiv = document.getElementById("movie-info");
     movieInfoDiv.innerHTML = `
     <h2>Title: ${this.#title}</h2> 
     <p><strong>Cast:</strong> ${this.#description}</p> 
